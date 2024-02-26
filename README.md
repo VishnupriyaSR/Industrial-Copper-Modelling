@@ -1,10 +1,10 @@
 # Industrial-Copper-Modelling
 
-#Introduction
+# Introduction
 
 This project aims to develop two machine learning models for the copper industry to address the challenges of predicting selling price and lead classification. Manual predictions can be time-consuming and may not result in optimal pricing decisions or accurately capture leads.
 
-#Key Technologies and Skills
+# Key Technologies and Skills
 
 Python
 
@@ -22,11 +22,13 @@ Pickle
       
 Streamlit
 
-#Approach: 
+# Approach: 
 
-1)Data Understanding: Identify the types of variables (continuous, categorical) and their distributions.
+# 1)Data Understanding: 
 
-2)Data Preprocessing: 
+Identify the types of variables (continuous, categorical) and their distributions.
+
+# 2)Data Preprocessing: 
 
 Handle missing values with mean/median/mode.
 
@@ -36,13 +38,15 @@ Identify Skewness in the dataset and treat skewness with appropriate data transf
 
 Encode categorical variables using suitable techniques, such as one-hot encoding, label encoding, or ordinal encoding, based on their nature and relationship with the target variable
 
-3)EDA: Try visualizing outliers and skewness(before and after treating skewness) using Seaborn’s boxplot, distplot, violinplot.
+# 3)EDA: 
 
-4)Feature Engineering:
+Try visualizing outliers and skewness(before and after treating skewness) using Seaborn’s boxplot, distplot, violinplot.
+
+# 4)Feature Engineering:
 
 Engineer new features if applicable, such as aggregating or transforming existing features to create more informative representations of the data. 
 
-5)Model Building and Evaluation:.
+# 5)Model Building and Evaluation:.
 
 Split the dataset into training and testing/validation sets. 
 
@@ -54,7 +58,9 @@ Interpret the model results and assess its performance based on the defined prob
 
 Same steps for Regression modelling.
 
-6)Model GUI: Using streamlit module, create interactive page.
+# 6)Model GUI: 
+
+Using streamlit module, create interactive page.
 
 
 
